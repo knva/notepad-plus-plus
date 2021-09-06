@@ -17,13 +17,15 @@
 
 LocalizationSwitcher::LocalizationDefinition localizationDefs[] =
 {
+
+	{TEXT("中文简体"), TEXT("chineseSimplified.xml")},
+	{TEXT("繁體中文"), TEXT("chineseCantonese.xml")},
+	{TEXT("中国台灣繁體中文"), TEXT("chineseMandarin.xml")},
 	{TEXT("English"), TEXT("english.xml")},
 	{TEXT("English (customizable)"), TEXT("english_customizable.xml")},
 	{TEXT("Français"), TEXT("french.xml")},
-	{TEXT("台灣繁體"), TEXT("taiwaneseMandarin.xml")},
-	{TEXT("中文简体"), TEXT("chineseSimplified.xml")},
 	{TEXT("한국어"), TEXT("korean.xml")},
-	{TEXT("日本語"), TEXT("japanese.xml")},
+	{TEXT("小日...子过得挺好的日本語"), TEXT("japanese.xml")},
 	{TEXT("Deutsch"), TEXT("german.xml")},
 	{TEXT("Español"), TEXT("spanish.xml")},
 	{TEXT("Italiano"), TEXT("italian.xml")},
@@ -109,6 +111,5 @@ LocalizationSwitcher::LocalizationDefinition localizationDefs[] =
 	{TEXT("Vèneto"), TEXT("venetian.xml")},
 	{TEXT("Gaeilge"), TEXT("irish.xml")},
 	{TEXT("नेपाली"), TEXT("nepali.xml")},
-	{TEXT("香港繁體"), TEXT("hongKongCantonese.xml")},
 	{TEXT("Аԥсуа бызшәа"), TEXT("abkhazian.xml")}
 };

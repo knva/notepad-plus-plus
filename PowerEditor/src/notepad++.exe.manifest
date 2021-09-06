@@ -4,7 +4,7 @@
 <assemblyIdentity
     version="1.0.0.0"
     processorArchitecture="*"
-    name="Notepad++"
+    name="Notepad++ 爱国版"
     type="win32"
 />
 <description>Notepad++</description>
